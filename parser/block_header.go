@@ -12,7 +12,7 @@ import (
 	"math/big"
 
 	"github.com/pkg/errors"
-	"github.com/zcash/lightwalletd/parser/internal/bytestring"
+	"github.com/jskinfu123/lightwalletd/parser/internal/bytestring"
 )
 
 const (

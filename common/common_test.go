@@ -16,7 +16,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	"github.com/zcash/lightwalletd/walletrpc"
+	"github.com/jskinfu123/lightwalletd/walletrpc"
 )
 
 // ------------------------------------------ Setup

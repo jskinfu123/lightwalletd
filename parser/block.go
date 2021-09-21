@@ -9,8 +9,8 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/zcash/lightwalletd/parser/internal/bytestring"
-	"github.com/zcash/lightwalletd/walletrpc"
+	"github.com/jskinfu123/lightwalletd/parser/internal/bytestring"
+	"github.com/jskinfu123/lightwalletd/walletrpc"
 )
 
 // Block represents a full block (not a compact block).
@@ -69,7 +69,7 @@ func (b *Block) HasSaplingTransactions() bool {
 	return false
 }
 
-// see https://github.com/zcash/lightwalletd/issues/17#issuecomment-467110828
+// see https://github.com/jskinfu123/lightwalletd/issues/17#issuecomment-467110828
 const genesisTargetDifficulty = 520617983
 
 // GetHeight extracts the block height from the coinbase transaction. See

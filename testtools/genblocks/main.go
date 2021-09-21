@@ -34,7 +34,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zcash/lightwalletd/parser"
+	"github.com/jskinfu123/lightwalletd/parser"
 )
 
 type options struct {
